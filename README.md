@@ -6,7 +6,7 @@
 
 ## Regressão Linear - Primeira Parte da Atividade
 
-## Acesso 
+### Acesso 
 [https://boston-celtics--regressao-linear.streamlit.app/](https://boston-celtics--regressao-linear.streamlit.app/)
 
 ## Especificações Gerais
