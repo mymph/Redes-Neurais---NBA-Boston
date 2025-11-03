@@ -1,12 +1,13 @@
-# 🏀 Celtics Stats Analyzer  
-### Desenvolvido por:
+# 🏀 Celtics Stats Analyzer  -  Redes Neurais  
+#### Desenvolvido por:
 - [Carla Daniela](https://github.com/Carla-Daniela)
 - [Letícia Lívia](https://github.com/mymph)  
 - [Tayane Cibely](https://github.com/TayaneCibely)
 
 ## Regressão Linear - Primeira Parte da Atividade
 
-### Acesso [https://boston-celtics--regressao-linear.streamlit.app/](https://boston-celtics--regressao-linear.streamlit.app/)
+### Acesso 
+[https://boston-celtics--regressao-linear.streamlit.app/](https://boston-celtics--regressao-linear.streamlit.app/)
 
 ## Especificações
 - **Time**: Boston Celtics
