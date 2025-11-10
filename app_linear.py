@@ -153,9 +153,10 @@ st.markdown("---")
 st.markdown("### ☘️ Configuração do Modelo de Regressão")
 
 # definir variáveis que fazem sentido para o modelo (ex: remover ids e colunas não numéricas)
-vars_nao_permitidas = ["SEASON_ID", "TEAM_ID", "GAME_ID", "Data do Jogo", "Confronto", "Vitória/Derrota"]
+vars_nao_permitidas = ["SEASON_ID", "TEAM_ID", "GAME_ID", "Data do Jogo", "Confronto"]
 vars_numericas = df.select_dtypes(include=[np.number]).columns.tolist()
 vars_permitidas = [v for v in vars_numericas if v not in vars_nao_permitidas]
+vars_permitidas_y = [v for v in vars_permitidas if v != "Vitória/Derrota"]
 
 # organizar as variáveis por categoria
 var_categories = {
@@ -173,7 +174,7 @@ with col1:
     st.markdown("*O que você quer prever?*")
     y_col = st.selectbox(
         "Selecione a variável alvo:",
-        vars_permitidas,
+        vars_permitidas_y,
         key="y_var"
     )
 
